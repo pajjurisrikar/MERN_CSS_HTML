@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tasks - 6</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: separate;
+            overflow: hidden;
+            background-color: rgb(45, 216, 216);
+            border-spacing: 9px;
+            border-radius: 20px;
+        }
+
+        th,
+        td {
+            padding: 8px;
+            border: 1px solid black;
+            column-width: 200px;
+        }
+
+        th:first-child,
+        td:first-child {
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 4px;
+            border-bottom-right-radius: 100px ;
+            border-top-right-radius: 100px ;
+        }
+
+        th:last-child,
+        td:last-child {
+            border-top-right-radius: 0px;
+            border-bottom-right-radius: 17px;
+            border-top-left-radius: 30px;
+            border-bottom-left-radius: 30px;
+        }
+
+        tr:first-child th:first-child {
+            border-top-left-radius: 80px;
+        }
+
+        tr:first-child th:last-child {
+            border-top-right-radius: 8px;
+        }
+
+        tr:last-child td:first-child {
+            border-bottom-left-radius: 8px;
+        }
+
+        tr:last-child td:last-child {
+            border-bottom-right-radius: 80px;
+        }
+
+        th {
+            border-top-left-radius: 8px;
+            border-top-right-radius: 80px;
+        }
+
+        tr:last-child td {
+            border-bottom-left-radius: 8px;
+            border-bottom-right-radius: 8px;
+        }
+        .shape1 { border-radius: 15px; }
+        .shape2 { border-top-left-radius: 15px; }
+        .shape3 { border-top-right-radius: 15px; }
+        .shape4 { border-bottom-left-radius: 15px; }
+        .shape5 { border-bottom-right-radius: 15px; }
+        .shape6 { border-radius: 0 0 15px 15px; }
+        .shape7 { border-radius: 15px 15px 0 0; }
+        .shape8 { border-radius: 0 10px 20px; }
+        .shape9 { border-radius: 10px 20px; }
+        .shape10 { border-radius: 10px/20px; }
+        .shape11 { border-radius: 5px 10px 15px 30px/30px 15px 10px 5px; }
+        .shape12 { border-radius: 500px 500px 500px 500px; }
+      
+        .shape {
+          display: inline-block;
+          width: 100px;
+          height: 75px;
+          border: 5px solid #4ac434;
+          margin: 10px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <fieldset>
+        <h1>CSS Task - 1</h1>
+        <table border="1">
+            <tr>
+                <th>Firstname</th>
+                <th>Lastname</th>
+                <th>Age</th>
+            </tr>
+            <tr class="12">
+                <td id="1">Jill</td>
+                <td id="2">Smith</td>
+                <td id="3">50</td>
+            </tr>
+            <tr>
+                <td id="4">Eve</td>
+                <td id="5">Jackson</td>
+                <td id="6">94</td>
+            </tr>
+            <tr>
+                <td id="7">Jhon</td>
+                <td id="8">Doe</td>
+                <td id="9">80</td>
+            </tr>
+        </table> <br>
+    </fieldset>
+    <fieldset>
+<div class="shape shape1"></div>
+<div class="shape shape2"></div>
+<div class="shape shape3"></div>
+<div class="shape shape4"></div>
+<div class="shape shape5"></div>
+<div class="shape shape6"></div>
+<div class="shape shape7"></div>
+<div class="shape shape8"></div>
+<div class="shape shape9"></div>
+<div class="shape shape10"></div>
+<div class="shape shape11"></div>
+<div class="shape shape12"></div>
+<br><br>
+    </fieldset>
+</body>
+
+</html>
